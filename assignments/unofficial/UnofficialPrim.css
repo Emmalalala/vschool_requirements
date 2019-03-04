@@ -1,0 +1,44 @@
+*{
+    box-sizing: content-box;
+}
+html, body{
+    margin: 15px 40px;
+    padding: 0 auto;
+    background: navajowhite;
+}
+.dark{
+    color: rgb(18, 48, 66);
+}
+.topBar{
+    color: navajowhite;
+    margin: 10px auto; 
+    display: inline-block;
+}
+.left{
+    float: left;
+    background-color: rgb(18, 48, 66);
+    border-radius: 18%;
+    width: 250px;
+    margin: 40px auto;
+    padding: 15px 20px 20px 15px;
+}
+.center{
+    padding-left: 450px;
+    background-color: rgb(18, 48, 66);
+    border-radius: 18%;
+    padding: 15px 20px 20px 15px;
+}
+.right{
+    float: right;
+    background-color: rgb(18, 48, 66);
+    border-radius: 18%;
+    padding: 15px 20px 20px 15px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}

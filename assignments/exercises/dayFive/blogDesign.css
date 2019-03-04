@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    background: rgb(175, 142, 31);
+    font-family: 'Lucida Sans';
+}
+span{
+    display: inline-block;
+    font-weight: lighter;
+    margin: 0 auto;
+    padding: 5px 80px;
+    font-size: 25px;
+}
+span:hover{
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+    cursor: grab;
+}
+.blue{
+    color: rgb(0, 47, 255);
+}
+.background{
+    background: white;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    position: relative;
+    padding: 40px;
+    top: 50px;
+    margin-bottom: 7s0px;
+}
+.blogWords{
+    line-height: 25px;
+    margin: 10px auto;
+    text-align: left;
+    margin-right: 60px;
+    margin-left: 60px
+}
+img{
+    float: left;
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+    margin: 5px 10px 5px auto;
+    margin-right: 10px;
+    margin-left: 300px;
+}
+.specs>span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+}
+.space{
+    margin: 300px;
+}

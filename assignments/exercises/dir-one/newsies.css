@@ -1,0 +1,19 @@
+*{
+    box-sizing: content-box;
+}
+html, body{
+    margin: 10px 10px;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container>div{
+    margin: 5px;
+    width: 40%;
+    height: 400px;
+    line-height: 17px;
+    padding: 5px;
+}
+

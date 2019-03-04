@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    background: rgb(18, 48, 66);
+}
+h1{
+    margin: 15px auto;
+}
+table{
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+.upper{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+th{
+    border: 1px dashed navajowhite;
+    padding: 23px;
+    border-radius: 80%;
+    text-align: center;
+} 
+.little{
+    font-size: 12px;
+    text-transform: none;
+}
+td{
+    border: 1px solid navajowhite;
+    padding: 18px;
+    border-radius: 80%;
+    text-align: center;
+}
+.white{
+    color: navajowhite;
+}
+h4{
+    text-decoration: underline;
+}
+.red{
+    color: red;
+    text-decoration: red underline wavy;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.big{
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxed{
+    border: 1px solid navajowhite;
+    padding: 10px;
+    margin: 15px auto;
+    width: 400px;
+    display: inline-block;
+}
+.circle{
+    border: 1px dashed navajowhite;
+    border-radius: 250px;
+    margin: 25px auto;
+    padding: 0 auto;
+    width: 250px;
+}
+a{
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 119, 255);
+}
+h5{
+    display: inline-block;
+    margin:  0 50px;
+    padding: 10px;
+    align-content: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+nav{
+    background: navajowhite;
+    opacity: 0.7;
+}
+.dark{
+    color: rgb(18, 48, 66);
+    font-size: 15px;
+}
+

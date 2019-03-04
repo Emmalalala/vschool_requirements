@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 15px 15px;
+    padding: 0 auto;
+    background-image: url("parchmentPaper.jpg");
+}
+.flex-container{
+    column-count: 3;
+    column-gap: 5px;
+    column-rule-width: 45%;
+}
+.pic{
+    margin: 10px auto;
+    width: 20%;
+    height: 300px;
+}
+span{
+    font-size: 40px;
+}
+.big{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    border: 3px solid black;
+    width: 70%;
+    margin: 18px auto;
+    background-color: grey;
+    height: 80px;
+    opacity: 0.8;
+}
+table{
+    margin: 8px auto;
+    text-align: center;
+}
+th, td{
+    padding: 23px;
+    margin: 8px auto;
+}
+.gen{
+    font-size: 25px;
+}
+thead{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+h1, h3{
+    text-align: center;
+}
+.larger{
+    font-size: 75px;
+}
+.large{
+    font-size: 30px;
+    text-transform: uppercase;
+}
